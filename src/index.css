@@ -1,0 +1,186 @@
+body{
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  background:linear-gradient(to top right, #181861 0%, black 32%)  ;
+}
+.logo{
+  height: 40px;
+  margin-top: 10px;
+  margin-left: 10px;
+  background-color: transparent;
+}
+
+.nav-bar{
+  position: relative;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  background-color: transparent;
+  margin: 0;
+  z-index: 100
+}
+.nav-links ul{
+  display: flex;
+  margin-left: 100px;
+  list-style: none;
+  gap: 2.5rem;
+  margin-top: 30px;
+  text-transform: uppercase;
+  
+}
+.nav-links a{
+  color: whitesmoke;
+  font-weight: 500;
+  text-decoration: inherit;
+  
+}
+.rem{
+  z-index: 2;
+}
+
+.nav-links a:hover{
+color: #222cb9;
+transition:  0.25s ease-in-out;
+
+}
+
+.nav-bar button{
+  height: 40px;
+  width: 150px;
+  margin-left: 220px;
+  border: 2px solid white;
+  background-color: transparent;
+  margin-top: 20px;
+  border-radius: 28px;
+  color: white;
+  padding: 0;
+  transition: border-color 0.25s;
+  font-weight: 500;
+  font-size: 1em;
+  font-family: inherit;
+  cursor: pointer;
+  z-index: 2;
+}
+.nav-bar button:hover {
+  border-color: #2b32b6;
+}
+
+.arrow{
+  width: 80px;
+  color: white;
+  margin: 45px;
+  margin-top: 25px;
+}
+.pager{
+  height: 100vh;
+}
+.page1{
+  display: flex;
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  font-size: 2.8em;
+  line-height: 1.1;
+  color: white;
+  margin-top: 2px;
+}
+.ingredients{
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  margin-left: 175px;
+  margin-top: -32px;
+  color: rgba(255, 255, 255, 0.705);
+}
+
+h2{
+  color: white;
+  text-transform: uppercase;
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  margin-left: 174px;
+}
+.card-container{
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+ display: flex;
+ margin-left: 157px;
+ margin-top: -25px;
+ padding: 20px;
+ justify-content: space-between;
+  
+}
+
+.cards{
+  display: flex;
+   gap: 10px;
+  font-weight: 400;
+  font-size: 16px;
+  color: white;
+  
+ 
+ 
+}
+.cards > div{
+background-color: rgba(160, 166, 192, 0.274);
+ height: 111px;
+   width: 120px;
+   border-radius: 5px;
+   text-align: center;
+}
+.value{
+  font-size: 20px;
+margin: px;
+font-weight: bold;
+}
+.inner-card1, .inner-card2, .inner-card3, .inner-card4, .inner-card5{
+  height: 30px;
+  width: 120px;
+  background-color: rgba(148, 143, 163, 0.493);
+  margin-top: -7px;
+ font-weight: bold
+}
+
+.card1, .card3{
+  height: 138px;
+}
+.card5{
+  z-index: 1
+}
+
+.card1 >.value, .card4 >.value{
+  margin-top: -1px;
+}
+.cans{
+  position: absolute;
+  
+}
+.cans img{
+  height: 600px;
+  width: 670px;
+  font-size: 2rem;
+  margin-top: -463px;
+  margin-left: 705px;
+  object-fit: contain;
+  z-index: -1;
+}
+.buy-now{
+  margin-left: 180px;
+  margin-top: 10px;
+  height: 40px;
+  width: 150px;
+   border: 2px solid white;
+  background-color: transparent;
+  color: white;
+  border-radius: 28px;
+  padding: 0;
+  transition: border-color 0.25s;
+  font-weight: 500;
+  font-size: 1em;
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  cursor: pointer;
+}
+.buy-now:hover{
+   border-color: #2b32b6;
+}
+
