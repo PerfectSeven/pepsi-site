@@ -1,36 +1,27 @@
 # Pepsi Landing Page
 
-A modern and responsive landing page concept for **Pepsi**, built with React.  
-This project focuses on sleek UI/UX design, interactivity, and brand-themed visuals.
+A modern, responsive landing page concept inspired by the Pepsi brand.
+Built with React, this project focuses on clean UI design, smooth interactivity, and a visually engaging user experience.
 
 ---
+## Overview
+This project showcases a front-end implementation of a brand-focused landing page, emphasizing:
+
+Responsive design across devices
+Interactive UI elements
+Structured and reusable React components
 
 ## Features
-- Fully responsive design (mobile-first).
-- Interactive animations and hover effects.
-- Clean component-based React structure.
-- Brand-inspired color palette and typography.
+📱 Fully responsive (mobile-first approach)
+🎯 Interactive animations and hover effects
+🧩 Component-based architecture using React
+🎨 Brand-inspired color palette and typography
 
 ---
-
 ## Tech Stack
-- **React.js** – Component-based UI
-- **CSS3** – Styling
-- **JavaScript (ES6+)** – Logic and interactivity
-
----
-
-##  Project Structure
-Pepsi-Landing/
-├── public/ # Static files (images, icons, etc.)
-├── src/ # React components and styles
-│ ├── components/ # Reusable UI elements
-│ ├── App.js # Main entry
-│ └── index.js # React DOM render
-├── package.json # Project dependencies
-└── README.md # Project documentation
-
-
+React.js – Component-based UI development
+JavaScript (ES6+) – Logic and interactivity
+CSS3 – Styling and layout
 ---
 
 ##  Getting Started
@@ -46,11 +37,9 @@ npm start
 
 📌 Future Improvements
 
-Add dark mode toggle
-
-Integrate GSAP animations for advanced transitions
-
-Multi-language support
+🌙Add dark mode support
+🎬 Integrate advanced animations (e.g., GSAP)
+🌍 Add multi-language support
 
 Author
 
